@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Mahasiswa Baru</title>
+</head>
+<body style="background-color: bisque;">
+    <h1 align="center" >PENDAFTARAN MAHASISWA BARU</h1>
+    <br>
+    <hr><hr>
+    <form action="/Form_Evylia Yanuar Laily_0110119043/daftar.php" method="post">
+        <div position="absolute" align="right">TANGGAL<input type="Date"></div>
+        
+        <table align="center" cellpadding = "10">
+            <tbody>
+                <tr>
+                    <td><div style="background-color: white;"><h2>DATA PRIBADI</h2></div></td>
+                </tr>
+                <tr>
+                    <td>NAMA LENGKAP</td>
+                    <td><input type="text" name="Nama_Lengkap" maxlength="100"/></td>
+                    <td>KEWARGANEGARAAN</td>
+                    <td><select name="wn" id="">
+                    <option value="">PILIH</option>
+                    <option value="indonesia">WARGA NEGARA INDONESIA</option>
+                    <option value="asing">WARGA NEGARA ASING</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>JENIS KELAMIN</td>
+                    <td><select name="jk" id="">
+                    <option value="">PILIH</option>
+                    <option value="1">LAKI-LAKI</option>
+                    <option value="2">PEREMPUAN</option>
+                    </select></td>
+                    <td>AGAMA</td>
+                    <td><select name="jk" id="">
+                    <option value="">PILIH</option>
+                    <option value="islam">ISLAM</option>
+                    <option value="kristen">KRISTEN</option>
+                    <option value="katolik">KATOLIK</option>
+                    <option value="hindu">HINDU</option>
+                    <option value="budha">BUDHA</option>
+                    <option value="lainnya">LAINNYA</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>TEMPAT LAHIR</td>
+                    <td class="style3"><input name="tempatlhrsiswa" type="text" id="tempatlhrsiswa" class="required" title="harus diisi" />
+                    <td>TANGGAL LAHIR</td>
+                    <td><input type="Date"></td>
+                </tr>
+                <tr>
+                    <td>NO HANDPHONE</td>
+                    <td><input type="text" name="Phone_Id" maxlength="100" /></td>
+                    <td>EMAIL</td>
+                    <td><input type="email" name="Email_Id" maxlength="100" /></td>
+                </tr>
+                <tr>
+                    <td><div style="background-color: white;"><h2>DATA ALAMAT ASAL</h2></div></td>
+                </tr>
+                <tr>
+                    <td>ALAMAT</td>
+                    <td><textarea name="" id="" cols="22" rows="3"></textarea></td>
+                    <td>KODE POS</td>
+                    <td><input type="text" name="kode_pos" maxlength="100"/></td>
+                </tr>
+                <tr>
+                    <td>KELURAHAN</td>
+                    <td><input type="text" name="kel" maxlength="100"/></td>
+                    <td>KECAMATAN</td>
+                    <td><input type="text" name="kec" maxlength="100"></td>
+                </tr>
+                <tr>
+                    <td>PROVINSI</td>
+                    <td><input type="text" name="provinsi" maxlength="100"/></td>
+                    <td>NEGARA</td>
+                    <td><input type="text" name="negara" maxlength="100"></td>
+                </tr>
+                <tr>
+                    <td><div style="background-color: white;"><h2>DATA PENDIDIKAN</h2></div></td>
+                </tr>
+                <tr>
+                    <td>PENDIDIKAN TERAKHIR</td>
+                    <td><select name="pt" id="">
+                    <option value="">PILIH</option>
+                    <option value="sma_ipa">SMA-IPA</option>
+                    <option value="sma_ips">SMA-IPS</option>
+                    <option value="sma_bahasa">SMA-BAHASA</option>
+                    <option value="smk_mm">SMK-MULTIMEDIA</option>
+                    <option value="smk_rpl">SMK-RPL</option>
+                    <option value="smk_tkj">SMK-TKJ</option>
+                    <option value="smk_bc">SMK-BC</option>
+                    <option value="man_ipa"> MAN-IPA</option>
+                    <option value="man_ips">MAN-IPS</option>
+                    <option value="man_bahasa">MAN-BAHASA INDONEDIA</option>
+                    <option value="man_arab">MAN BAHASA ARAB</option>
+                    <option value="lainnya">LAINNYA</option>
+                    </select></td>
+                    <td>NAMA SEKOLAH</td>
+                    <td><input type="text" name="ns" maxlength="100"></td>
+                </tr>
+                <tr>
+                    <td>PILIHAN PROGRAM STUDI</td>
+                    <td><select name="ps" id="">
+                    <option value="">PILIH</option>
+                    <option value="s1_si">S1-SISTEM INFORMASI</option>
+                    <option value="s1_ti">S1-TEKNIK INFORMATIKA</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>PILIHAN KELAS</td>
+                    <td><input type="radio" name=kelas>PAGI</td>
+                    <td><input type="radio" name="kelas">MALAM</td>
+                    <td><input type="radio" name="kelas">WEEKEND</td>
+                </tr>
+                <tr>
+                    <td><div>
+                        <input type="submit" name="Submit" id="Submit" value="Daftar">
+                        <input type="reset" value="Reset">
+                    </div></td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
